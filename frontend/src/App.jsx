@@ -21,6 +21,7 @@ function App() {
         <Toaster position="top-right" />
         <Routes>
           <Route path="/about" element={<About />} /> {/* Correct the element */}
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           
         </Routes>
