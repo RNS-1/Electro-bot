@@ -33,13 +33,7 @@ const Home = () => {
   const [lastUpdate, setLastUpdate] = useState(Date.now());
   const [autoUpdate, setAutoUpdate] = useState(true);
 
-  useEffect(() => {
-    if (!userEmail) {
-      navigate('/login');
-      return;
-    }
-    fetchConversations();
-  }, [userEmail]);
+  
 
   useEffect(() => {
     if (chatContainerRef.current) {
