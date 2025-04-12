@@ -191,49 +191,8 @@ const About = () => {
           animate="visible"
           className="mt-20 text-center"
         >
-          <motion.h2 
-            variants={itemVariants} 
-            className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6"
-          >
-            Connect With <span className="text-blue-500">Electro Circuit AI</span>
-          </motion.h2>
-          <motion.p 
-            variants={itemVariants} 
-            className="text-white/80 mb-8 text-lg md:text-xl"
-          >
-            Visit our website or contact us for detailed information about our platform and services
-          </motion.p>
-          <motion.div 
-            variants={itemVariants} 
-            className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6"
-          >
-            <motion.a
-              href="https://www.electrocircuit.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ 
-                scale: 1.05,
-                backgroundColor: "#3B82F6",
-                color: "#000"
-              }}
-              className="px-8 py-4 bg-gray-800 text-white rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/30"
-            >
-              Visit Website
-            </motion.a>
-            <motion.a
-              href="tel:+12345678900"
-              whileHover={{ 
-                scale: 1.05,
-                backgroundColor: "#3B82F6",
-                borderColor: "#3B82F6",
-                color: "#000"
-              }}
-              className="px-8 py-4 border-2 border-blue-500 text-blue-500 rounded-xl font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:shadow-blue-500/30"
-            >
-              Contact Us
-            </motion.a>
+          
           </motion.div>
-        </motion.div>
       </div>
     </div>
   );
