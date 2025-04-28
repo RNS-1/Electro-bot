@@ -14,7 +14,7 @@ import google.generativeai as genai
 logger = logging.getLogger(__name__)
 
 # Configure the Gemini API
-GEMINI_API_KEY = "AIzaSyDY3dRhAfNPZy6Ze3SzAutB7m2JDe2xDus"  # Replace with your actual API key
+GEMINI_API_KEY = "AIzaSyApb3uEAndgRMBIvIYGULdoO3xFcYcYJeU"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Set up the model
